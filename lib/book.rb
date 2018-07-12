@@ -15,4 +15,5 @@ end
 
 
 
-Book.new ("And Then There Were None")
+book1 =Book.new ("And Then There Were None")
+puts book1.title
