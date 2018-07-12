@@ -1,10 +1,10 @@
 class Shoes
- # attr_accessor :author, :page_count, :genre
-  #attr_reader :shoes
+ 
  
   def initialize(brand, color)
     @brand = brand
     @color = color
+    @size = size
   end
   
   def brand
@@ -13,11 +13,16 @@ class Shoes
  def color
    @color
  end
+ 
+ def size
+   @size
+ end
   
  
 end
 
-shoe1=Shoes.new("adidas", "red")
+shoe1=Shoes.new("adidas", "red", 5)
 puts shoe1.brand
 puts shoe1.color
+puts shoe1.size
 
