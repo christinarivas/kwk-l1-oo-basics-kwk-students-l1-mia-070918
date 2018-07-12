@@ -21,4 +21,4 @@ shoe1=Shoes.new("adidas")
 puts shoe1.brand
 
 color1=Shoes.new("red")
-puts color1.color1
+puts color1.color
