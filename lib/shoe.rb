@@ -17,8 +17,6 @@ class Shoes
  
 end
 
-shoe1=Shoes.new("adidas")
+shoe1=Shoes.new("adidas", "red")
 puts shoe1.brand
 
-color1=Shoes.new("red")
-puts color1.color
