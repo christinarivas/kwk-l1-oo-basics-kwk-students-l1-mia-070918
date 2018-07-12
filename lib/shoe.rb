@@ -18,5 +18,6 @@ class Shoes
 end
 
 shoe1=Shoes.new("adidas", "red")
-puts shoe1.brand.color
+puts shoe1.brand
+puts shoe1.color
 
