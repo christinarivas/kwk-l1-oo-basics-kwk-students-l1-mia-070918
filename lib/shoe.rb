@@ -2,7 +2,7 @@ class Shoes
  # attr_accessor :author, :page_count, :genre
   #attr_reader :shoes
  
-  def initialize(brand)
+  def initialize(brand, color)
     @brand = brand
   end
   
