@@ -1,7 +1,7 @@
 class Shoes
  
  
-  def initialize(brand, color)
+  def initialize(brand, color, size)
     @brand = brand
     @color = color
     @size = size
@@ -21,7 +21,7 @@ class Shoes
  
 end
 
-shoe1=Shoes.new("adidas", "red", 5)
+shoe1=Shoes.new("adidas", "red", "5")
 puts shoe1.brand
 puts shoe1.color
 puts shoe1.size
